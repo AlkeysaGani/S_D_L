@@ -11,6 +11,13 @@ package com.mycompany.s_d_l;
 public class S_D_L {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int[] angka = new int[100];
+        
+        for ( int i =0; i < angka.length; i++) {
+            angka [i] = i + 1;
+        }
+        
+                   
+        }
     }
-}
+
