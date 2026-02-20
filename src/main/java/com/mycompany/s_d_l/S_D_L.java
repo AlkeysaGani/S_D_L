@@ -11,13 +11,26 @@ package com.mycompany.s_d_l;
 public class S_D_L {
 
     public static void main(String[] args) {
+        
         int[] angka = new int[100];
         
         for ( int i =0; i < angka.length; i++) {
             angka [i] = i + 1;
         }
         
-                   
+         
+            int jumlah = 0;
+        for (int i = 0; i < angka.length; i++) {
+            jumlah += angka[i];
         }
+
+        double rata = (double) jumlah / angka.length;
+
+       
+        System.out.println("Jumlah = " + jumlah);
+        System.out.println("Rata-rata = " + rata);
     }
+}
+        
+    
 
